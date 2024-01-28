@@ -1,0 +1,65 @@
+/* @import url(href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet') */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input{
+  width: 60%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.Movie-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Movie-wrapper{
+  background-color: grey;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-inline: 160px; */
+  padding: 15px;
+  font-size: medium;
+}
+
+.Movie-img{
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: red;
+  object-fit: cover;
+}
+
+.Movie-tittle{
+  max-width: 200px;
+}
+
+/* .Movie-rating{
+  
+}
+
+.Movie-date{
+  
+} */
+
