@@ -1,24 +1,34 @@
 /* @import url(href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet') */
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2d394d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:#fffaf8;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.head {
+  justify-content: start;
+  /* padding-right: 110px; */
+}
+
 input{
   width: 60%;
   height: 30px;
   margin-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
 }
 
 .Movie-container{
@@ -31,35 +41,60 @@ input{
 }
 
 .Movie-wrapper{
-  background-color: grey;
-  width: 200px;
-  height: 300px;
+  background-color:#263041;
+  /* width: 200px; */
+  /* height: 425px;   */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* padding-inline: 160px; */
-  padding: 15px;
+  padding: 20px;
   font-size: medium;
+  border-radius: 10px;
+  align-self:normal;
+  /* height:max-content; */
+  /* padding-bottom: 20px; */
+  box-shadow: 4px 6px 24px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 24px -1px rgba(0,0,0,0.75);
 }
 
 .Movie-img{
-  margin: 10px;
+  /* margin: 10px; */
+  margin-top: 0px;
   width: 200px;
   height: 300px;
-  background-color: red;
+  /* background-color: red; */
   object-fit: cover;
+  border-radius: 10px;
+  
+  box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 24px -4px rgba(0,0,0,0.75);
 }
 
 .Movie-tittle{
-  max-width: 200px;
+  padding-top: 10px;
+  /* max-width: 150px; */
+  font-size: 18px;
+  max-width: 180px;
+  text-align: center;
+  font-style:oblique;
+  padding-bottom: 20px;
+  height: 40px;
+  font-weight: bolder;
 }
 
-/* .Movie-rating{
-  
+.Movie-rating{
+  font-size: medium;
+  font-weight: 200;
+
 }
 
 .Movie-date{
-  
-} */
+  font-size: medium;
+  font-weight: 200;
+  font-style:italic;
+}
 
